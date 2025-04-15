@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Space</title>
+<link rel="stylesheet" href="styles/shop.css">
+<link rel="stylesheet" href="css/all.css">
+    <link rel="website icon" href="image/logo-website.png" type="jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href=”/your-path-to-fontawesome/css/all.css” rel=”stylesheet”>
+</head>
+
+<body>
+
+
+    <div class="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">HimanshuShop</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars" style=""></i>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="home.html" class="active">Home</a>
+                <a href="#">About</a>
+            </nav>
+            <div class="icons">
+                <div class="icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-heart"></i>
+                    <span class="icon-badge">2</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="icon-badge">3</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="banner" data-aos="fade-up">
+            <h1>Premium Collection</h1>
+            <p>Discover our exclusive selection of high-quality products designed to elevate your lifestyle. Curated with care for the discerning customer.</p>
+            <a href="#" class="banner-btn">Explore Collection <i class="fas fa-arrow-right"></i></a>
+        </section>
+        
+        <section class="filters" data-aos="fade-up" data-aos-delay="100">
+            <div class="filter-group">
+                <button class="filter-button active">All</button>
+                <button class="filter-button">New Arrivals</button>
+                <button class="filter-button">Best Sellers</button>
+                <button class="filter-button">On Sale</button>
+                <button class="filter-button">Featured</button>
+            </div>
+            
+            <div class="filter-group">
+                <select>
+                    <option>Sort by: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest First</option>
+                    <option>Rating</option>
+                </select>
+            </div>
+        </section>
+        
+        <section class="product-grid">
+
+            <div class="product-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="product-image">
+                    <img src="product-image/product1.jpg" alt="Premium Watch">
+                    <div class="badge new">NEW</div>
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Accessories</div>
+                    <h3 class="product-title">Premium Chronograph Watch</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-count">(42)</span>
+                    </div>
+                    <div class="product-price">
+                        $249.99
+                        <span class="original-price">$299.99</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        
+            <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="product-image/product2.jpg" alt="Leather Wallet">
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Accessories</div>
+                    <h3 class="product-title">Genuine Leather Wallet</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-count">(28)</span>
+                    </div>
+                    <div class="product-price">$89.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+       
+            <div class="product-card" data-aos="fade-up" data-aos-delay="250">
+                <div class="product-image">
+                    <img src="product-image/product3.jpg" alt="Wireless Headphones">
+                    <div class="badge sale">SALE</div>
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Electronics</div>
+                    <h3 class="product-title">Wireless Noise Cancelling Headphones</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-count">(56)</span>
+                    </div>
+                    <div class="product-price">
+                        $179.99
+                        <span class="original-price">$229.99</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="product-image">
+                    <img src="product-image/product7.jpg" alt="Perfume">
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Beauty</div>
+                    <h3 class="product-title">Luxury Perfume</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-count">(34)</span>
+                    </div>
+                    <div class="product-price">$129.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+       
+            <div class="product-card" data-aos="fade-up" data-aos-delay="350">
+                <div class="product-image">
+                    <img src="product-image/product5.jpg" alt="Sunglasses">
+                    <div class="badge new">NEW</div>
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Accessories</div>
+                    <h3 class="product-title">Designer Sunglasses</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-count">(47)</span>
+                    </div>
+                    <div class="product-price">$159.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+    
+            <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="product-image">
+                    <img src="product-image/product6.jpg" alt="Smartwatch">
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Electronics</div>
+                    <h3 class="product-title">Premium Smartwatch</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-count">(31)</span>
+                    </div>
+                    <div class="product-price">$199.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card" data-aos="fade-up" data-aos-delay="450">
+                <div class="product-image">
+                    <img src="product-image/product7.jpg" alt="Travel Bag">
+                    <div class="badge sale">SALE</div>
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Travel</div>
+                    <h3 class="product-title">Premium Leather Travel Bag</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-count">(52)</span>
+                    </div>
+                    <div class="product-price">
+                        $299.99
+                        <span class="original-price">$349.99</span>
+                    </div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+  
+            <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="product-image">
+                    <img src="product-image/product8.jpg" alt="Sneakers">
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Footwear</div>
+                    <h3 class="product-title">Lightweight Running Sneakers</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-count">(38)</span>
+                    </div>
+                    <div class="product-price">$149.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+         
+             <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="product-image">
+                    <img src="product-image/product1.jpg" alt="Bracelet">
+                    <div class="quick-view">Quick View</div>
+                </div>
+                <div class="product-details">
+                    <div class="product-category">Accessories</div>
+                    <h3 class="product-title">White Gold Men Bracelet</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span class="rating-count">(39)</span>
+                    </div>
+                    <div class="product-price">$1590.99</div>
+                    <div class="product-actions">
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                        <button class="wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="pagination" data-aos="fade-up">
+            <div class="page-number active">1</div>
+            <div class="page-number">2</div>
+            <div class="page-number">3</div>
+            <div class="page-number">4</div>
+            <div class="page-number">5</div>
+            <div class="page-number"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        
+
+        <section class="newsletter" data-aos="fade-up">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest products, exclusive offers, and style tips. Join our community today!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                <h3>About Us</h3>
+                <p>HimanshuShop offers premium products designed with quality and elegance in mind for discerning customers around the world.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f" ></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> FAQs</a></li>
+                    <li><a href="#"><i class="fas fa-truck"></i> Shipping & Returns</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Order Tracking</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="300">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fas fa-file-alt"></i> Terms & Conditions</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> Careers</a></li>
+                    <li><a href="#"><i class="fas fa-newspaper"></i> Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="400">
+                <h3>Stay Connected</h3>
+                <p>Subscribe to receive updates on new products and special promotions.</p>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Your email">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            © 2025 <a href="#">HimanshuShop</a>. All rights reserved. Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> By Himanshu Santani.
+        </div>
+    </footer>
+    
+   <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
+
+    <div class="dark-mode-toggle" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+    
+
+    <div class="zoom-container" id="zoomContainer">
+        <span class="zoom-close" id="zoomClose"><i class="fas fa-times"></i></span>
+        <img id="zoomedImage" src="/placeholder.svg" alt="Zoomed product image">
+    </div>
+    
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    
+
+    
+    <script src="js/shop.js"></script>
+</body>
+
+</html>
